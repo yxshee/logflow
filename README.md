@@ -23,14 +23,6 @@
 
 ---
 
-## 🖼️ Screenshots
-
-> _Add your own screenshots here for best results!_
-
-![System Monitor Screenshot](https://user-images.githubusercontent.com/your-screenshot.png)
-
----
-
 ## 🚀 Getting Started
 
 ### 1. **Clone the Repository**
