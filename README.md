@@ -34,18 +34,20 @@ cd syslog
 
 ### 2. **Install Dependencies**
 
-Make sure you have Python 3.7+ installed.
-
-Install required Python package:
-
+- Make sure you have Python 3.7+ installed.
+- Install required packages:
 ```bash
-pip install psutil
+pip install -r src/requirements.txt
+```
+Or install in editable mode:
+```bash
+pip install -e src
 ```
 
 ### 3. **Run the Application**
 
 ```bash
-python app.py
+python src/app.py
 ```
 
 ---
@@ -86,8 +88,11 @@ CPU_READ_INTERVAL_SECONDS = 0.5      # CPU usage sampling interval (seconds)
 
 ```
 syslog/
-├── app.py                  # Main application (GUI)
-├── system_performance.log  # Log file (auto-generated, gitignored)
+├── src/
+│   ├── app.py                  # Main application (GUI)
+│   ├── requirements.txt        # Python dependencies
+│   └── setup.py                # Packaging script
+├── system_performance.log      # Log file (auto-generated, gitignored)
 ├── .gitignore
 ├── README.md
 └── LICENSE
