@@ -4,3 +4,28 @@
 2025-05-16 17:16:54 - INFO - System performance monitoring stopped by user.
 2025-05-16 17:16:54 - INFO - System performance monitoring finished.
 2025-05-16 17:17:54 - INFO - Application initialized.
+2025-05-16 17:18:44 - INFO - Status: Starting monitoring...
+2025-05-16 17:18:44 - INFO - Monitoring thread started.
+2025-05-16 17:18:44 - ERROR - Error updating UI: local variable 'disk_data' referenced before assignment
+Traceback (most recent call last):
+  File "/Users/venom/syslog/app.py", line 167, in update_ui_labels
+    f"Disk ({selected_disk if selected_disk else 'N/A'}): {disk_data['percent']:.2f}% (if selected), "
+UnboundLocalError: local variable 'disk_data' referenced before assignment
+2025-05-16 17:18:44 - INFO - Status: Error: local variable 'disk_data' referenced before assignment
+2025-05-16 17:18:50 - ERROR - Error updating UI: local variable 'disk_data' referenced before assignment
+Traceback (most recent call last):
+  File "/Users/venom/syslog/app.py", line 167, in update_ui_labels
+    f"Disk ({selected_disk if selected_disk else 'N/A'}): {disk_data['percent']:.2f}% (if selected), "
+UnboundLocalError: local variable 'disk_data' referenced before assignment
+2025-05-16 17:18:50 - INFO - Status: Error: local variable 'disk_data' referenced before assignment
+2025-05-16 17:18:55 - ERROR - Error updating UI: local variable 'disk_data' referenced before assignment
+Traceback (most recent call last):
+  File "/Users/venom/syslog/app.py", line 167, in update_ui_labels
+    f"Disk ({selected_disk if selected_disk else 'N/A'}): {disk_data['percent']:.2f}% (if selected), "
+UnboundLocalError: local variable 'disk_data' referenced before assignment
+2025-05-16 17:18:55 - INFO - Status: Error: local variable 'disk_data' referenced before assignment
+2025-05-16 17:18:57 - INFO - Status: Stopping monitoring...
+2025-05-16 17:18:57 - INFO - Monitoring thread finished.
+2025-05-16 17:18:57 - INFO - Status: Monitoring stopped. Ready.
+2025-05-16 17:18:57 - INFO - Monitoring stopped by user action.
+2025-05-16 17:18:57 - INFO - Application closed.
