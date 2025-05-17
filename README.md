@@ -16,7 +16,7 @@
 
 - **Live Monitoring**: View CPU, memory, disk, and network usage in real time.
 - **Graphical UI**: Clean and intuitive Tkinter-based interface.
-- **Logging**: All stats are logged to `system_performance.log` for later analysis.
+- **Logging**: All stats are logged to `logflow.log` for later analysis.
 - **Customizable**: Choose refresh interval and disk partition to monitor.
 - **Cross-platform**: Works on Windows, Linux, and macOS.
 - **Error Handling**: Robust logging and user-friendly error messages.
@@ -65,9 +65,9 @@ python src/app.py
 ## 📑 Log File Example
 
 ```
-2025-05-16 17:15:36 - INFO - Starting system performance monitoring...
+2025-05-16 17:15:36 - INFO - Starting Logflow monitoring...
 2025-05-16 17:15:37 - INFO - CPU: 27.00%, Mem: 86.80%, Disk (C:): 60.00% (if selected), Net Sent (Session): 1.23 MB, Net Recv (Session): 2.34 MB
-2025-05-16 17:16:54 - INFO - Monitoring stopped by user action.
+2025-05-16 17:16:54 - INFO - Logflow monitoring stopped by user action.
 ```
 
 ---
@@ -77,7 +77,7 @@ python src/app.py
 You can change these variables in `app.py`:
 
 ```python
-LOG_FILE = 'system_performance.log'  # Log file name
+LOG_FILE = 'logflow.log'  # Log file name
 DEFAULT_REFRESH_INTERVAL_SECONDS = 5 # UI refresh interval (seconds)
 CPU_READ_INTERVAL_SECONDS = 0.5      # CPU usage sampling interval (seconds)
 ```
@@ -87,12 +87,12 @@ CPU_READ_INTERVAL_SECONDS = 0.5      # CPU usage sampling interval (seconds)
 ## 🧩 Project Structure
 
 ```
-syslog/
+logflow/
 ├── src/
 │   ├── app.py                  # Main application (GUI)
 │   ├── requirements.txt        # Python dependencies
 │   └── setup.py                # Packaging script
-├── system_performance.log      # Log file (auto-generated, gitignored)
+├── logflow.log                 # Log file (auto-generated, gitignored)
 ├── .gitignore
 ├── README.md
 └── LICENSE
@@ -106,7 +106,7 @@ syslog/
   - **A:** Make sure you select a valid disk partition from the dropdown.
 
 - **Q:** _How do I clear the log file?_
-  - **A:** Simply delete or truncate `system_performance.log`. It will be recreated on next run.
+  - **A:** Simply delete or truncate `logflow.log`. It will be recreated on next run.
 
 - **Q:** _Can I run this headless (without GUI)?_
   - **A:** The current version is GUI-based. For CLI-only, use a previous version or adapt the code.
