@@ -1,4 +1,4 @@
-# 🖥️ System Performance Monitor
+# 🖥️ Logflow
 
 ![Python](https://img.shields.io/badge/Python-3.7%2B-blue?logo=python)
 ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
@@ -8,7 +8,7 @@
 
 ## 📋 Overview
 
-**System Performance Monitor** is a Python application with a graphical interface for real-time monitoring and logging of CPU, memory, disk, and network usage. It is ideal for system administrators, developers, and power users who want to keep track of their system's health and performance.
+**Logflow** is a Python application with a graphical interface for real-time monitoring and logging of CPU, memory, disk, and network usage. It is ideal for system administrators, developers, and power users who want to keep track of their system's health and performance.
 
 ---
 
