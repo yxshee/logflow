@@ -19,3 +19,10 @@
 2025-05-17 17:02:13 - INFO - CPU: 7.0%, Mem: 84.0%, Disk(/): 18.4%
 2025-05-17 17:02:14 - INFO - CPU: 46.5%, Mem: 84.1%, Disk(/): 18.4%
 2025-05-17 17:02:15 - INFO - CPU: 28.6%, Mem: 84.7%, Disk(/): 18.5%
+2025-05-17 17:02:17 - INFO - CPU: 42.9%, Mem: 85.7%, Disk(/): 18.4%
+2025-05-17 17:02:18 - INFO - CPU: 27.1%, Mem: 85.5%, Disk(/): 18.5%
+2025-05-17 17:02:20 - INFO - CPU: 22.0%, Mem: 86.2%, Disk(/): 18.5%
+2025-05-17 17:02:21 - INFO - CPU: 30.8%, Mem: 83.3%, Disk(/): 18.5%
+2025-05-17 17:02:23 - INFO - Stopping monitoring...
+2025-05-17 17:02:23 - INFO - Monitoring thread finished.
+2025-05-17 17:02:23 - INFO - Application closed.
