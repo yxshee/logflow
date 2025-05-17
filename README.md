@@ -28,8 +28,8 @@
 ### 1. **Clone the Repository**
 
 ```bash
-git clone <repository-url>
-cd syslog
+git clone https://github.com/yxshee/logflow
+cd  logflow
 ```
 
 ### 2. **Install Dependencies**
