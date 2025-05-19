@@ -3,7 +3,7 @@
 ---
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/your-screenshot.png" alt="Logflow Screenshot" width="700"/><br>
+  <img src="assets/cpu.png" alt="Logflow Screenshot" width="700"/><br>
   <b>Real-time system monitoring, beautiful graphs, and logs at your fingertips.</b>
 </p>
 
