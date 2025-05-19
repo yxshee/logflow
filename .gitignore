@@ -1,0 +1,6 @@
+# Ignore log files
+- *.log
++ system_performance.log
++ logflow.log
+
+system_performance_pro.log
